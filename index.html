@@ -17,7 +17,7 @@
             margin: 0;
             font-family: sans-serif;
             font-size: 16px;
-            color: #222;
+            color: #242424;
             text-align: justify;
 
          }
@@ -27,8 +27,13 @@
             margin: 0 auto;
             padding: 0 2em;
          }
+         .container h3{
+            font-size: 2em;
+            text-align: center;
+            color: #242424;
+         }
         nav {
-            background-color: #222;
+            background-color: #242424;
             position: fixed;
             width: 100%;
             margin: 0 auto;
@@ -47,7 +52,8 @@
             text-align: center;
             transition: all 0.2s;
          }
-        nav li: last-child{
+         
+        nav li last-child{
              padding-right: 0;
          }
         nav a {
@@ -56,20 +62,20 @@
             transition: all 0.3s;
             font-size: 18px;
          }
-        nav a: hover {
-            color: #ddd
+        nav a:hover {
+            color: lightgrey;
          }
 
-        #icon{
+        /*#icon{     I can't remember why I have this
             display: inline-block;
             padding-top: 0.7em;
             padding-left: 0.7em;
             font-size: 2em;
             font-weight: 700;
-            color: White;
-         }
+            color: white;
+         }*/
         #nav-bg{
-             background-color: #222;
+             background-color: #242424;
              position: fixed;
              height: 5em;
              width: 100%;
@@ -78,14 +84,14 @@
          }
         header{
             position: relative;
-            background-color: #222;
+            background-color: #242424;
             height: 5vh;
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
             padding: 10em 0 8em;
             z-index: 2;
-            color: White;
+            color: white;
           }
         header h1{
             font-size: 3em;
@@ -103,13 +109,13 @@
             line-height: 2em;
             font-size: 1.4em;
             margin: 0;
-            color: #222;
+            color: #242424;
 
           }
           #main h2{
             font-size: 2em;
             text-align: left;
-            color: #222;
+            color: #242424;
             
           }
           .columns {
@@ -133,12 +139,20 @@
             max-height: 100px;
             padding: 20px;
         }
+        .link {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 18px;
+            text-align: center;
+        }
+
 
     </style>
 </head>
 <body>
 <nav>
-    <div class="container"></div>
+    
     <img src="logo.png" class="miniimage">
     <ul>
         <li>
@@ -150,15 +164,13 @@
         <li>
             <a href="#Projects">Projects</a>
         </li>
-        <li>
-            <a href="">Payment</a>
-        </li>
+        
 
     </ul>
 </nav>
 <header>
     <div class="container">
-        <h1>Tom Smail</h1>
+        <h1>Tom Smail - Projects</h1>
 
     </div>
 </header>
@@ -166,7 +178,7 @@
     <div class="main">
         <div class="container">
             <a id="About"><br><br><br><br></a>
-            <h2> About </h2>
+            <h3> About </h3>
             <p>
                 
                 
@@ -176,7 +188,7 @@
         </div>
         <div class="container">
             <a id="Projects">
-            <h2> Projects and Challenges</h2></a>
+            <h3> Projects and Challenges</h3></a>
             <p>
                 
                 
@@ -301,6 +313,18 @@
            
         </p>
     </div>
+    <div class="container">
+        <a id="Contact">
+        <h3> Contact </h3></a>
+        <p>
+            My email address is thomas.c.smail@gmail.com, please email here for any extra information. <br><br>
+              This is my LinkedIn: <a href="https://www.linkedin.com/feed/?msgControlName=reply_to_sender&msgConversationId=2-MjEzODZjYTEtYTUyZC00MGQ5LThmMjAtZTczMjVjYWI5YWM2XzAxMA%3D%3D&msgOverlay=true&trk=false" class= "link">LinkedIn  </a><br><br>
+              This is my Instagram:<a href="https://www.instagram.com/tom_smai1/" class= "link">  Instagram</a><br><br>
+              This is my Github:<a href="https://github.com/TomSmail" class= "link">  Github</a><br><br>
+              
+        </p>
+    </div>
+    
 </div>
   <!--  <section class ="project">
         
